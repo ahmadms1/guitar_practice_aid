@@ -43,7 +43,7 @@ function onError(error) {
     setAudioPosition("0");
 }
 function playAudio(id) {
- 	src = "/android_asset/www/sounds/tuner/"+id+".mp3";  	
+ 	src = "/sounds/tuner/"+id+".mp3";  	
     // Create Media object from src 	
     my_media = new Media(src, onSuccess, onError);    
     my_media.play();
